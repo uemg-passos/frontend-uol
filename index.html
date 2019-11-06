@@ -6,36 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>UOL - O melhor conteúdo</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div class="header-top background-black text-light">
-        <div class="container">
-          <nav class="text-left">
-            <a href="#" class="mr">BOL</a>
-            <a href="#" class="mr">UOL HOST</a>
-            <a href="#" class="mr">PAGBANK</a>
-            <a href="#" class="mr">PAGSEGURO</a>
-            <a href="#" class="mr">CURSOS</a>
-          </nav>
-          <div class="text-center">
-            <p id="date-show"></p>
+    <div class="header">
+      <div class="header-1">
+        <div class="header-1-container">
+          <div class="header-1-col-1">
+            <div class="btn-menu">MENU</div>
+            <a href="#">BOL</a>
+            <a href="#">UOL HOST</a>
+            <a href="#">PAGBANK</a>
+            <a href="#">PAGSEGURO</a>
+            <a href="#">CURSOS</a>
           </div>
-          <nav class="text-right">
-            <a href="#" class="ml">EMAIL</a>
-            <a href="#" class="ml">CONTA UOL</a>
-            <a href="#" class="ml">SAC</a>
+          <div class="header-1-col-2">
+            <p id="date-show" class="date-now"></p>
+            <p>
+              <a class="logo-icon">
+                <i>
+                  <img src="img/logo-icon.png" width="28" height="28" alt="" />
+                </i>
+              </a>
+            </p>
+          </div>
+          <nav class="header-1-col-3">
+            <a href="#">
+              <i class="material-icons">mail</i> <span>EMAIL</span>
+            </a>
+            <a href="#">
+              <i class="material-icons">face</i> <span>CONTA UOL</span>
+            </a>
+            <a href="#">
+              <i class="material-icons">phone</i> <span>SAC</span>
+            </a>
           </nav>
         </div>
       </div>
-      <div class="header-middle">
-        <div class="container">
-          <div class="logo"><img src="img/logo.png" alt="Logo UOL" /></div>
-          <div class="login">
+      <div class="header-2">
+        <div class="header-2-container">
+          <div class="header-2-logo">
+            <img src="img/logo.png" alt="Logo UOL" />
+          </div>
+          <div class="header-2-login">
             <form method="get" action="#" class="mt">
               <input
                 type="email"
@@ -48,31 +68,31 @@
                 <span>Entrar</span>
               </a>
             </form>
-            <div class="login-sign">
+            <div class="header-2-login-sign">
               <a href="#" title="Ainda não tem um email UOL? Assine">
                 Ainda não tem um email UOL?
                 <strong>Assine</strong>
               </a>
             </div>
           </div>
-          <div class="text-center">
+          <div class="header-2-cambio">
             <h5 class="ml">Dólar <span class="text-red">3,995</span></h5>
             <h5 class="ml mt">Euro <span class="text-green">4,465</span></h5>
           </div>
-          <div class="text-center">
+          <div class="header-2-climate">
             <h5 class="ml">Passos</h5>
             <h5 class="ml mt">
               <span class="text-blue">14°</span>
               <span class="text-red">30°</span>
             </h5>
           </div>
-          <div class="text-right">
+          <div class="header-2-search">
             <input type="text" placeholder="BUSCAR NO UOL" />
           </div>
         </div>
       </div>
-      <div class="header-nav container">
-        <nav>
+      <div class="header-3">
+        <div class="header-3-container">
           <ul>
             <li>
               <a href="#">Item</a>
@@ -120,44 +140,46 @@
               <a href="#">Item</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </header>
-    <main class="main-content container ">
-      <section class="section-left mt">
-        <div class="news-hightlight ml mr">
+    </div>
+    <div class="news-container">
+      <div class="news-left">
+        <div class="news-hightlight">
           Confira a correção UOL/Objetivo da prova do 1° dia do Enem
         </div>
         <div class="news-main">
-          <div><img src="img/news-main.jpg" alt="" /></div>
-          <div class="news-main-text">
-            <p class="text-red pb">Oito jogos sem vencer</p>
-            <h1 class="pb">
+          <div><img src="img/news-main.jpg" alt="Foto" /></div>
+          <div class="news-main-content">
+            <p class="news-main-text">Oito jogos sem vencer</p>
+            <h1 class="news-main-title">
               Carille é demitido do Corinthians depois de goleada do Flamengo
             </h1>
-            <h3>Técnico não suportou derrota por 4 a 1</h3>
+            <h3 class="news-main-subtitle">
+              Técnico não suportou derrota por 4 a 1
+            </h3>
           </div>
         </div>
-        <div class="news-tag ml mt mb">
+        <div class="news-tag">
           Corinthians sonha com Nunes ou estrangeiro; ainda não há consenso nem
           oferta
         </div>
-        <div class="news-tag ml mt mb">
+        <div class="news-tag">
           Corinthians sonha com Nunes ou estrangeiro; ainda não há consenso nem
           oferta
         </div>
-        <div class="news-tag ml mt mb">
+        <div class="news-tag">
           Corinthians sonha com Nunes ou estrangeiro; ainda não há consenso nem
           oferta
         </div>
-        <div class="news-left-container">
+        <div class="news-box-left-container">
           <div class="news-card">
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <p class="text-red mt mb">Brasileirao</p>
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
@@ -167,9 +189,9 @@
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <p class="text-red mt mb">Brasileirao</p>
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
@@ -179,71 +201,34 @@
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <p class="text-red mt mb">Brasileirao</p>
-              <h4>
-                Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
-                Flamengo'
-              </h4>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-image">
-              <img src="img/news-card.jpg" alt="" />
-            </div>
-            <div class="news title">
-              <p class="text-red mt mb">Brasileirao</p>
-              <h4>
-                Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
-                Flamengo'
-              </h4>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-image">
-              <img src="img/news-card.jpg" alt="" />
-            </div>
-            <div class="news title">
-              <p class="text-red mt mb">Brasileirao</p>
-              <h4>
-                Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
-                Flamengo'
-              </h4>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-image">
-              <img src="img/news-card.jpg" alt="" />
-            </div>
-            <div class="news title">
-              <p class="text-red mt mb">Brasileirao</p>
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
             </div>
           </div>
         </div>
-      </section>
-      <section class="section-right mt">
-        <div class="background-light">
-          <div class="news-slide">
-            <div class="title text-red background-white">EM SÃO PAULO:</div>
-            <figure>
-              <img src="img/news-slide.jpg" alt="" />
-              <figcaption>
-                Hipnose ajuda lutadores e fortões a vencer torneios
-              </figcaption>
-            </figure>
-          </div>
+      </div>
+      <div class="news-left">
+        <div class="news-slide">
+          <div class="news-slide-title">EM SÃO PAULO:</div>
+          <figure>
+            <img src="img/news-slide.jpg" alt="" />
+            <figcaption>
+              Hipnose ajuda lutadores e fortões a vencer torneios
+            </figcaption>
+          </figure>
         </div>
-        <div class="news-right-container mt background-light">
+        <div class="news-box-right-container">
           <div class="news-card">
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
@@ -253,8 +238,9 @@
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
@@ -264,8 +250,9 @@
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
@@ -275,38 +262,20 @@
             <div class="news-image">
               <img src="img/news-card.jpg" alt="" />
             </div>
-            <div class="news title">
-              <h4>
-                Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
-                Flamengo'
-              </h4>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-image">
-              <img src="img/news-card.jpg" alt="" />
-            </div>
-            <div class="news title">
-              <h4>
-                Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
-                Flamengo'
-              </h4>
-            </div>
-          </div>
-          <div class="news-card">
-            <div class="news-image">
-              <img src="img/news-card.jpg" alt="" />
-            </div>
-            <div class="news title">
-              <h4>
+            <div>
+              <p class="news-text">Brasileirao</p>
+              <h4 class="news-title">
                 Jesus exalta goleada sobre o Corinthians: 'Voltamos a jogar como
                 Flamengo'
               </h4>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© UOL 1996-2019</p>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>
